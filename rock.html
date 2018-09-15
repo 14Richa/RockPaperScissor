@@ -1,0 +1,41 @@
+<!-- 
+Author: Richa Sharma
+Date: 7 September 2018
+Title: Rock Paper Scissor  
+-->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock-Paper-Scissor Game</title>
+	<link rel="stylesheet" type="text/css" href="rock.css">
+</head>
+<body>
+  <header>
+  	<hi> Rock Paper Scissors</hi>
+  </header>
+  <div class = "score-board">
+  	<div id = "user-label" class = "badge">user</div>
+  	<div id = "computer-label" class = "badge">comp</div>
+  	<span id = "user-score">0</span>:<span id = "computer-score">0</span>
+  </div>
+  <div class = "result">
+  	<p>Paper covers rock. You win!</p>
+  </div>
+  <div class = "choices">
+  	<div class = "choice" id = "r">
+  		<img src = "rock.jpg" alt ="Rock photo">
+  	</div>
+  	<div class = "choice" id = "p">
+  		<img src = "paper.jpg" alt ="Paper photo">
+  	</div>
+  	<div class = "choice" id = "s">
+  		<img src = "scissor.png" alt ="Scissor photo">
+  	</div>
+  </div>
+  <p id = "action-message"> Make your move.</p>
+  <button onclick="reset()" type ="button" id = "reset-button"> Play Again </button>
+  <script type="text/javascript" src="rock.js"></script>
+</body>
+</html>
